@@ -29,7 +29,7 @@ public class TrackersController {
     @ResponseBody
     public Response getPoint(@RequestParam("point") String point){
         try {
-            // декодируем параметр из url в json
+            // декодируем параметр  из url в json
             point = URLDecoder.decode(point, "UTF8");
             // формируем объект PointDTO из полученной строки
             PointDTO pointDto = new PointDTO(point);
