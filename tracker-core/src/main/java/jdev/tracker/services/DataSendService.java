@@ -1,4 +1,4 @@
-package jdev.tracker.service;
+package jdev.tracker.services;
 
 import jdev.dto.PointDTO;
 import jdev.dto.Response;
